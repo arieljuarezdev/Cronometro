@@ -1,0 +1,75 @@
+
+@font-face {
+    font-family: digital_7;
+    src:url(./font/digital-7.ttf)
+}
+
+body{
+    margin: 0;
+    background-color:  black;
+    font-family: digital_7;
+    
+}
+
+
+
+
+.content{
+    width: 400px;
+    height: 190px;
+    text-align: center;
+    padding: 5px;
+    padding-top: 35px;
+    border: 2px solid crimson;
+    border-radius: 20px; 
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.clock{
+    width: 350px;
+    margin: auto;
+    text-align: center;
+    display: block;
+    padding: 10px;
+
+    /* background-color: cyan; */
+    margin-bottom: 15px;
+
+
+}
+
+h1{
+    font-size: 60px;
+    width: 60px;
+    color: crimson;
+    padding: 5px;
+    display: inline-block;
+    margin: auto;
+    margin-right: 5px; 
+}
+
+.display{
+    width: 300px;
+    background-color: crimson;
+    border: 1px solid #ff9999;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+
+button{
+    font-size: 20px;
+    font-weight: 700;
+    width: 70px;
+    padding: 7px;
+    box-sizing: border-box;
+    border: 1px solid #ff9999;
+    background-color: #202020;
+    color: crimson;
+    border-radius: 5px;
+    margin: 7px;
+    font-family: digital_7;
+}
+
