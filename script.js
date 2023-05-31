@@ -8,16 +8,20 @@ var inter;
 let play = document.getElementById("play");
 let pause = document.getElementById("pause");
 let reset = document.getElementById("reset");
+let mark = document.getElementById("mark");
+
+let list = document.getElementById("list");
 
 let mnt = document.getElementById("minute");
 let scd = document.getElementById("second");
 let tns = document.getElementById("tens");
 
+
 // Events
 play.onclick = iniCount;
 pause.onclick = pauCount;
 reset.onclick = resCount;
-
+mark.onclick = markTime;
 
 // functions
 function iniCount(){
@@ -39,6 +43,13 @@ function resCount(){
     tns. innerHTML = "00";
     scd. innerHTML = "00:";
     mnt. innerHTML = "00:";
+}
+
+function markTime() {
+    const li = document.createElement('li');
+    const text = document.createTextNode(mnt.innerHTML + scd.innerHTML + tns.innerHTML);
+    li.appendChild(text);   
+    list.appendChild(li);
 }
 
 

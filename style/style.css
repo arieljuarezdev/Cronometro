@@ -73,3 +73,17 @@ button{
     font-family: digital_7;
 }
 
+
+#history {
+    position: relative;
+    top: 50px;
+    text-align: left;
+}
+
+#history button {
+    margin: 15px;
+}
+
+#history li {
+    padding: 10px;
+}
